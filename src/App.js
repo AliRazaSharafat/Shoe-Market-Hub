@@ -19,7 +19,6 @@ function App() {
         <Route path="/about" component={AboutUs} />
         <Route path="*" component={NotFound} />
       </Switch>
-      <span>Deployed</span>
     </div>
   );
 }
